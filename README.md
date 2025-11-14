@@ -93,6 +93,7 @@ Models used:
 - Python 3.10.17+
 - `control_rep2.pod5` (from the `modbase-validation_2024.10` dataset)
 
+---
 ### Installation Steps
 
 ```bash
