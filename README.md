@@ -114,10 +114,10 @@ pip install -r requirements.txt
 1. Place `control_rep2.pod5` in the project root directory.  
 2. Run **2_Data_Preprocessing.ipynb** to generate the following files:
 
-''' X_train_ultra.npy
-y_train_ultra.npy
-X_test_ultra.npy
-y_test_ultra.npy
+- `X_train_ultra.npy`
+- `y_train_ultra.npy`
+- `X_test_ultra.npy`
+- `y_test_ultra.np`
 
 ---
 
@@ -127,8 +127,6 @@ This notebook loads the `_ultra` dataset and saves:
 
 baseline_model.keras
 
-yaml
-Copy code
 
 ---
 
@@ -137,9 +135,6 @@ Run **4_Model_Improved.ipynb** for 50 epochs.
 This will save the improved model:
 
 improved_model_ultra.keras
-
-yaml
-Copy code
 
 ---
 
