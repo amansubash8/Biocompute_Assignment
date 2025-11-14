@@ -56,8 +56,6 @@ Both pipelines output:
 
 ---
 
----
-
 ## 3. Baseline Model  
 Notebook: `3_Model_Baseline.ipynb`
 
