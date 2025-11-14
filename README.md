@@ -107,3 +107,63 @@ source venv/bin/activate
 
 # 3. Install required packages
 pip install -r requirements.txt
+
+## Reproducing the Final Results (Recommended)
+
+### **Step 1: Prepare the Data**
+1. Place `control_rep2.pod5` in the project root directory.  
+2. Run **2_Data_Preprocessing.ipynb** to generate the following files:
+
+X_train_ultra.npy
+y_train_ultra.npy
+X_test_ultra.npy
+y_test_ultra.npy
+
+yaml
+Copy code
+
+---
+
+### **Step 2: Train the Baseline Model**
+Run **3_Model_Baseline.ipynb**.  
+This notebook loads the `_ultra` dataset and saves:
+
+baseline_model.keras
+
+yaml
+Copy code
+
+---
+
+### **Step 3: Train the Improved Model**
+Run **4_Model_Improved.ipynb** for 50 epochs.  
+This will save the improved model:
+
+improved_model_ultra.keras
+
+yaml
+Copy code
+
+---
+
+### **Step 4: Generate the Final Report**
+Run **5_Evaluation_Report.ipynb** to generate:
+
+- ROC curves  
+- Confusion matrices  
+- Final performance metric visualizations  
+
+---
+
+## Optional: Reproduce the “No Gaussian Smoothing” Results
+
+### **Step 1: Generate Noisy Data**
+Run **2_Data_Preprocessing_without_gaussian.ipynb** to create the `_adv` dataset files.
+
+---
+
+### **Step 2: Update the SAVE_PREFIX**
+In notebooks **3**, **4**, and **5**, modify the first cell:
+
+```python
+SAVE_PREFIX = "_ultra"
