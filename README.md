@@ -96,7 +96,6 @@ Models used:
 ---
 ### Installation Steps
 
-```bash
 # 1. Create virtual environment
 python3 -m venv venv
 
@@ -115,13 +114,10 @@ pip install -r requirements.txt
 1. Place `control_rep2.pod5` in the project root directory.  
 2. Run **2_Data_Preprocessing.ipynb** to generate the following files:
 
-X_train_ultra.npy
+''' X_train_ultra.npy
 y_train_ultra.npy
 X_test_ultra.npy
 y_test_ultra.npy
-
-yaml
-Copy code
 
 ---
 
