@@ -27,6 +27,7 @@ To meet the requirements, a **hybrid synthetic dataset** was created:
 ### 1. Data Exploration  
 Notebook: `1_Data_Exploration.ipynb`
 
+- Inspected `.fast5` structure
 - Inspected `.pod5` structure  
 - Verified raw signal presence  
 - Confirmed absence of methylation labels → synthetic labels required  
