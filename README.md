@@ -94,7 +94,9 @@ Generates:
 
 Models evaluated:
 - `baseline_model.keras`
-- `improved_model_ultra.keras`
+- `improved_model_*.keras`
+
+The '*' is replaced by either adv or ultra, depending on the data preprocessing done.
 
 ---
 ## Environment Setup
