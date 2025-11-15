@@ -168,11 +168,35 @@ Run **2_Data_Preprocessing_without_gaussian.ipynb** to create the `_adv` dataset
 
 ---
 
-### **Step 2: Update the SAVE_PREFIX**
-In notebooks **3**, **4**, and **5**, modify the first cell:
+### **Step 2: Update the Python Code**
+In notebook **3**, modify the cell:
 
 ```python
-SAVE_PREFIX = "_ultra"
+X_train = np.load('X_train_ultra.npy')
+y_train = np.load('y_train_ultra.npy')
+X_test = np.load('X_test_ultra.npy')
+y_test = np.load('y_test_ultra.npy')
 ```
+Change 'ultra' to 'adv'.
 
+---
+
+### **Step 3: Update the SAVE_PREFIX**
+In notebook **4**, modify the cell:
+
+```python
+SAVE_PREFIX = '_ultra'
+```
+Change '_ultra' to '_adv'.
+
+---
+
+### **Step 4: Update the Python Code**
+In notebook **5**, modify the cell:
+
+```python
+X_test = np.load('X_test_ultra.npy')
+y_test = np.load('y_test_ultra.npy')
+```
+Change 'ultra' to 'adv'.
 
