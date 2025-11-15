@@ -55,6 +55,8 @@ Both pipelines output:
 - `X_test_*.npy`
 - `y_test_*.npy`
 
+The '*' is replaced by either adv or ultra, depending on the data preprocessing done.
+
 ---
 
 ## 3. Baseline Model  
