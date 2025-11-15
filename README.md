@@ -148,7 +148,7 @@ baseline_model.keras
 Run **4_Model_Improved.ipynb** for 50 epochs.  
 This will save the improved model:
 
-improved_model_ultra.keras
+improved_model.keras
 
 ---
 
