@@ -104,6 +104,8 @@ The '*' is replaced by either adv or ultra, depending on the data preprocessing 
 ### Requirements
 - Python **3.10.17+**  
 - `control_rep2.pod5` (from `modbase-validation_2024.10` dataset)
+- Download the fast5 file from the google drive link [https://drive.google.com/file/d/10gAQG6vGIhVKth2_WHVYhFxj3dRc-nMZ/view?usp=sharing]
+- Download the pod5 file from the google drive link [https://drive.google.com/file/d/1gLcpqgRQa0pyMlXdUMR20vKlfoa7_JIr/view?usp=sharing]
 
 ---
 
