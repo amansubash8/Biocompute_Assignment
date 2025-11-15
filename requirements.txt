@@ -1,0 +1,11 @@
+numpy
+pandas
+tensorflow
+scikit-learn
+matplotlib
+jupyter
+h5py
+ont-fast5-api
+pod5
+scipy
+seaborn
